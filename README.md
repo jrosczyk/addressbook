@@ -14,7 +14,7 @@ Django 3 example app.
 
 Listing view
 
-![listing view](https://p85.f2.n0.cdn.getcloudapp.com/items/2NurWDy0/Image+2020-01-19+at+6.13.47+PM.png?v=e466ff6e21c51acb3c577091e973b3c3)
+![listing view](https://p85.f2.n0.cdn.getcloudapp.com/items/NQuv5Xw2/Image+2020-01-19+at+6.26.07+PM.png?v=c9154b1ccdf4b4b00905cb1c23f88c39)
 
 
 Create view
