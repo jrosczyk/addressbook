@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+	<div class="alert alert-danger" role="alert">
+		<h4 class="alert-heading">Delete "{{person.first_name}} {{person.last_name}}"?</h4>
+		<p>Are you sure you want to delete "{{person.first_name}}"? There is no undo.</p>
+		<hr>
+		<form method="POST" action="">
+			{% csrf_token %}
+			<a class="btn btn-secondary" href="{% url 'list' %}" role="button">Cancel</a>
+			<input class="btn btn-danger" type="submit" value="Confirm delete">
+		</form>
+	</div>
+{% endblock %}
