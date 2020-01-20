@@ -4,8 +4,10 @@ Django 3 example app.
 ---
 
 ## Test
-- run `cd addressbook/` in terminal
-- run `python manage.py runserver` in terminal 
+- open terminal
+- cd to the top-level application directory
+- install requirements `pip3 install -r requirements.txt`
+- run `python3 manage.py runserver`
 - launch web browser at `http://127.0.0.1:8000/` or the address the terminal gives 
 
 ---
